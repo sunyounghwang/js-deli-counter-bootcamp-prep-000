@@ -27,5 +27,7 @@ function currentLine(line) {
         }
      
         return messageStart.concat(...currLine);
+    } else {
+      return 'The line is currently empty.';
     }
 }
