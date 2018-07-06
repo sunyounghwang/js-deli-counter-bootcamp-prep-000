@@ -25,3 +25,4 @@ function currentLine(line) {
         currLine.push(`${++i}. ${deliLine[i]}`);
       }
     }
+  }
