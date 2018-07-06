@@ -13,7 +13,7 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(line) {
+function currentLine(deliLine) {
     if (deliLine.length > 0) {
         let messageStart = 'The line is currently:';
         let currLine = [];
