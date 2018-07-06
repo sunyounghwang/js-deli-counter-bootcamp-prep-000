@@ -26,6 +26,6 @@ function currentLine(line) {
             }
         }
         
-        return messageStart + ...currLine;
+        return messageStart.concat(...currLine;
     }
 }
