@@ -13,15 +13,3 @@ function nowServing(deliLine) {
   }
 }
 
-function currentLine(line) {
-  if (deliLine.length > 0) {
-    let message = `The line is currently: `;
-    let currLine = [];
-    
-  for (let i = 0; i < deliLine.length; i++) {
-      if (i == deliLine.length - 1) {
-        currLine.push(`${++i}. ${deliLine[i]}`);
-      } else {
-        currLine.push(`${++i}. ${deliLine[i]}`);
-      }
-  }
