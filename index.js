@@ -19,6 +19,9 @@ function currentLine(line) {
     let currLine = [];
     
     for (let i = 0; i < deliLine.length; i++) {
-      if 
-      
-// currLine.push(`${++i}. ${deliLine[i]},`);
+      if (i == deliLine.length - 1) {
+        currLine.push(`${++i}. ${deliLine[i]}`);
+      } else {
+        currLine.push(`${++i}. ${deliLine[i]}`);
+      }
+    }
