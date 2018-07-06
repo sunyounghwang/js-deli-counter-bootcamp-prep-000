@@ -1,0 +1,24 @@
+var deliLine = [];
+
+function takeANumber(deliLine, newName) {
+  deliLine.push(newName);
+  return `Welcome, ${newName}. You are number ${deliLine.length} in line.`;
+}
+
+function nowServing(deliLine) {
+  if (deliLine.length > 0) {
+    return `Currently serving ${deliLine.shift()}.`;
+  } else {
+    return 'There is nobody waiting to be served!';
+  }
+}
+
+function currentLine(line) {
+  if (deliLine.length > 0) {
+    let message = `The line is currently: `;
+    let currLine = [];
+    
+    for (let i = 0; i < deliLine.length; i++) {
+      if 
+      
+// currLine.push(`${++i}. ${deliLine[i]},`);
